@@ -120,7 +120,7 @@ public class BitacoraService {
     private void validarRolUsuario(Long id, String rolEsperado) {
         try {
             java.util.Map<String, Object> response = restTemplate.getForObject(
-                    "http://localhost:8080/api/usuarios/" + id, 
+                    "http://localhost:8089/api/usuarios/" + id, 
                     java.util.Map.class
             );
             

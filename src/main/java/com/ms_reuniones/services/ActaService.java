@@ -78,7 +78,7 @@ public class ActaService {
         try {
             // Lee el JSON completo como un Mapa
             java.util.Map<String, Object> response = restTemplate.getForObject(
-                    "http://localhost:8080/api/usuarios/" + id, 
+                    "http://localhost:8089/api/usuarios/" + id, 
                     java.util.Map.class
             );
             
